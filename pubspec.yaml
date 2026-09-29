@@ -1,0 +1,40 @@
+name: flutter_base
+description: KIRYO NIME — app Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  video_player: ^2.9.2
+  webview_flutter: ^4.10.0
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.5
+  flutter_local_notifications: ^17.2.3
+  image_picker: ^1.1.2
+  share_plus: ^10.0.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/login_background.jpg
+    - assets/images/default_avatar.jpg
+    - assets/images/anime_banner.png
+    - assets/images/manga_banner.png
+    - assets/images/dashboard_background.jpg
+    - assets/images/logo_kiryo.png
+    - assets/stickers/
+    - assets/images/upcoming_anime_banner.png
+    - assets/images/no_connection.png
